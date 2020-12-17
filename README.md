@@ -1,4 +1,4 @@
-# Various samples for go language
+# Various samples for python language
 
 ## Overview
 

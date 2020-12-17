@@ -54,14 +54,17 @@ This repository is a collection of Dockerfile, VS Code Remote Development settin
 - [env](env)  
   This directory contains sample configuration files for [VS Code Remote Development](https://code.visualstudio.com/docs/remote/remote-overview).  
   \
-  Normally, I think that some people were working in the docker container with `docker exec -it {container name} bash` etc. from terminal, By linking VS CODE and the Docker container, you can directly operate the Docker container with VS CODE and you can use the extension and settings as they are.  
-  \
-  There is a python environment and an environment for additional lambda development environments. The serverless framework CLI is also installed in the lambda development environment.
+  Normally, I think that some people were working in the docker container with `docker exec -it {container name} bash` etc. from terminal, By linking VS CODE and the Docker container, you can directly operate the Docker container with VS CODE and you can use the extension and settings as they are.
 
 - [env/base](env/base)  
   There are templates and examples for python development environment used in [VS Code Remote Development](https://code.visualstudio.com/docs/remote/remote-overview).
 
 ---
+
+## flake8 for Python linters aggregator
+
+It takes a lot of time and effort to find out how to use such analysis tools one by one and install all of them, and it also takes time to investigate how to execute the tools.  
+Therefore, [flake8]](https://pypi.org/project/flake8/) is a tool that integrates and executes code analysis tools.
 
 ## Required
 

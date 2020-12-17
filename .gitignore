@@ -3,6 +3,8 @@ tmp
 coverage
 example
 # environment
+.vscode
+.editorconfig
 env/*
 env/*/*
 !env/*/template

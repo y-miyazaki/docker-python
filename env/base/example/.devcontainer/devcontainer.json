@@ -1,0 +1,28 @@
+{
+  "dockerFile": "../../docker/base/local/Dockerfile",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-python.python",
+    "coenraads.bracket-pair-colorizer-2",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "ibm.output-colorizer",
+    "streetsidesoftware.code-spell-checker",
+    "vscode-icons-team.vscode-icons"
+  ],
+  "build": {
+    "args": {
+      "WORKDIR": "/workspace"
+    }
+  },
+  "runArgs": [
+    "-v",
+    "${env:HOME}/workspace/docker-python:/workspace",
+    "-v",
+    "${env:HOME}/.ssh:/root/.ssh"
+  ],
+  "workspaceFolder": "/workspace"
+}

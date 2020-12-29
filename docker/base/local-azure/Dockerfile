@@ -2,7 +2,7 @@
 # build image
 # https://hub.docker.com/_/microsoft-azure-functions-python
 #--------------------------------------------------------------
-ARG IMAGE_VERSION=3.8-buster
+ARG IMAGE_VERSION=buster
 FROM mcr.microsoft.com/azure-functions/python:${IMAGE_VERSION}
 
 #--------------------------------------------------------------

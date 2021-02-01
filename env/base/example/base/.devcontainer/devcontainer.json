@@ -1,5 +1,5 @@
 {
-  "dockerFile": "../../docker/base/local/Dockerfile",
+  "dockerFile": "registry.hub.docker.com/ymiyazakixyz/python-local:3.9-buster",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
